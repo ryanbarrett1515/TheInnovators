@@ -1,15 +1,21 @@
+const profileJson = require('../json/profile');
+
 function createProfile(profile) {
     try {
 
         // do al your logic stuff
+        const Profile = require('../classes/Profile');
+        const fs = require('fs');  
+        console.log('hello',profileJson)
+        console.log('FirstName: ' + profileJson.Profile.firstName);
 
-        return profile
+        return profile;
 
     } catch (err) {
 
         errMessage = typeof err == 'string' ? err : err.message;
 
-        console.log("[Controler Bike] Create Bike failed", errMessage);
+        console.log("[Controller Profile] Create Bike failed", errMessage);
 
         return errMessage
     }

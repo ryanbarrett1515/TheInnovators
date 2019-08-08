@@ -1,86 +1,94 @@
 {
     "Profiles": [
         {
-            "Profile": {
-                "firstName": "Peter",
-                "lastName": "Parker",
-                "location": "NYC",
-                "age": "17",
-                "jobTitle": "Spiderman",
-                "hobbies": [
-                    "video games", "TV", "Trivia"
-                ],
-                "sports": [
-                    "None"
-                ],
-                "placesLived": [
-                    "NYC"
-                ],
-                "foods": [
-                    "pizza",
-                    "tacos"
-                ]
-            },
-            "Profile": {
-                "firstName": "Max",
-                "lastName": "Twax",
-                "location": "NYC",
-                "age": "83",
-                "jobTitle": "CEO",
-                "hobbies": [
-                    "TV",  "Chess"
-                ],
-                "sports": [
-                    "soccer", "golf"
-                ],
-                "placesLived": [
-                    "West Virginia", "Montana"
-                ],
-                "foods": [
-                    "salad",
-                    "steak"
-                ]
-            },
-            "Profile": {
-                "firstName": "Yesman",
-                "lastName": "Smith",
-                "location": "Texas",
-                "age": "25",
-                "jobTitle": "Store Manager",
-                "hobbies": [
-                    "running", "TV"
-                ],
-                "sports": [
-                    "soccer"
-                ],
-                "placesLived": [
-                    "Washington", "Ohio"
-                ],
-                "foods": [
-                    "pizza",
-                    "ice cream"
-                ]
-            },
-            "Profile": {
-                "firstName": "Max",
-                "lastName": "Yinner",
-                "location": "Chicago",
-                "age": "35",
-                "jobTitle": "Salesman",
-                "hobbies": [
-                    "video games",  "swimming", "chess"
-                ],
-                "sports": [
-                    "None"
-                ],
-                "placesLived": [
-                    "Montana", "West Virginia"
-                ],
-                "foods": [
-                    "ice cream",
-                    "salad"
-                ]
-            }
+            "firstName": "Peter",
+            "lastName": "Parker",
+            "location": "NYC",
+            "age": "17",
+            "jobTitle": "Spiderman",
+            "hobbies": [
+                "video games",
+                "TV",
+                "Trivia"
+            ],
+            "sports": [
+                "None"
+            ],
+            "placesLived": [
+                "NYC"
+            ],
+            "foods": [
+                "pizza",
+                "tacos"
+            ]
+        },
+        {
+            "firstName": "Max",
+            "lastName": "Twax",
+            "location": "NYC",
+            "age": "83",
+            "jobTitle": "CEO",
+            "hobbies": [
+                "TV",
+                "Chess"
+            ],
+            "sports": [
+                "soccer",
+                "golf"
+            ],
+            "placesLived": [
+                "West Virginia",
+                "Montana"
+            ],
+            "foods": [
+                "salad",
+                "steak"
+            ]
+        },
+        {
+            "firstName": "Yesman",
+            "lastName": "Smith",
+            "location": "Texas",
+            "age": "25",
+            "jobTitle": "Store Manager",
+            "hobbies": [
+                "running",
+                "TV"
+            ],
+            "sports": [
+                "soccer"
+            ],
+            "placesLived": [
+                "Washington",
+                "Ohio"
+            ],
+            "foods": [
+                "pizza",
+                "ice cream"
+            ]
+        },
+        {
+            "firstName": "Max",
+            "lastName": "Yinner",
+            "location": "Chicago",
+            "age": "35",
+            "jobTitle": "Salesman",
+            "hobbies": [
+                "video games",
+                "swimming",
+                "chess"
+            ],
+            "sports": [
+                "None"
+            ],
+            "placesLived": [
+                "Montana",
+                "West Virginia"
+            ],
+            "foods": [
+                "ice cream",
+                "salad"
+            ]
         }
     ]
 }

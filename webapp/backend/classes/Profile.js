@@ -12,7 +12,7 @@ class Profile {
     }
 }
 
-score(p1, p2) {
+function score(p1, p2) {
     score = 0;
     for(i = 0; i < p1.hobbies.length; i++) {
         if(p2.hobbies.includes(p1.hobbies[i])) {
@@ -41,7 +41,7 @@ score(p1, p2) {
     return score;
 }
 
-getScoreList(profile, profiles) {
+function getScoreList(profile, profiles) {
     var scores = [];
     for(i = 0; i < profiles.length; i++) {
         scores.push(score(profile, profiles[i]));
@@ -49,7 +49,7 @@ getScoreList(profile, profiles) {
     return scores;
 }
 
-findClosestMatch(profile, profiles) {
+function findClosestMatch(profile, profiles) {
     var closestMatch = profiles[0];
     var closestMatchScore = score(profile, profiles[0]);
 
@@ -64,4 +64,4 @@ findClosestMatch(profile, profiles) {
     return closestMatch;
 }
 
-module.exports = [Profile, score, getScoreList, findClosestMatch];
+module.exports = {Profile, score, getScoreList, findClosestMatch};
