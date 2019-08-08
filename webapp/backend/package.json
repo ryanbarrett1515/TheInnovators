@@ -1,0 +1,21 @@
+{
+  "name": "smart-monitor-backend",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "author": "Nicolas Topuz",
+  "license": "ISC",
+  "dependencies": {
+    "File": "^0.10.2",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "filereader": "^0.10.3",
+    "fs": "0.0.1-security",
+    "nodemon": "^1.19.0"
+  }
+}
